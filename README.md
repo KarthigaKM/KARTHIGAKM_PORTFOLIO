@@ -115,6 +115,7 @@ DATA SCIENCE PORTFOLIO
    * Creating a table named "Business_Cards" if it doesn't exist to store the extracted business card data.
    * Storing the data from the Pandas DataFrame into the MySQL database.
 ## Modify Section:
+![](https://github.com/KarthigaKM/KARTHIGAKM_PORTFOLIO/blob/main/biz%20delete.PNG?raw=true)
    * Providing options to update and delete existing data in the database.
    * Displaying a dropdown to select the card holder name to update.
    * Allowing users to modify the data for the selected business card and committing the changes to the database.
