@@ -67,6 +67,7 @@ DATA SCIENCE PORTFOLIO
     and pincodes.
   * Plotly and Streamlit are used to create interactive pie charts and bar charts, allowing users to explore the data and understand transaction patterns.
 ## Map Visualizations:
+![](https://github.com/KarthigaKM/KARTHIGAKM_PORTFOLIO/blob/main/Map%20visual.PNG?raw=true)
   * The "Map_Visualizations" tab consists of two sub-tabs, each displaying choropleth maps based on statewise transactions and user data.
   * The "Map of Statewise Transactions" presents a choropleth map showcasing transaction data by state.
   * The "Map of Statewise Users" displays a choropleth map indicating the number of users by state.
