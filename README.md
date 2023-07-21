@@ -21,6 +21,7 @@ DATA SCIENCE PORTFOLIO
 ## Establish API and Database Connections:
   * Establish connections to the YouTube API using an API key, connect to MongoDB using pymongo, and set up a connection with MySQL using MySQL Connector.
 ## Retrieve YouTube Data:
+![](https://github.com/KarthigaKM/KARTHIGAKM_PORTFOLIO/blob/main/Displaying%20overall%20channel%20details.PNG?raw=true)
   * Create four separate functions to retrieve channel details, video IDs (using channel IDs), all video details, and comments' details for each video. Organize the 
     comments as arrays within their corresponding videos.
 ## Store Data in MongoDB:
