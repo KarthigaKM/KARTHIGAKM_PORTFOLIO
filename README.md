@@ -83,7 +83,7 @@ DATA SCIENCE PORTFOLIO
 
 
 # [Project 3: Extracting Business Card Data with OCR](https://github.com/KarthigaKM/BIZCARDX-PROJECT)
-![](
+![](https://github.com/KarthigaKM/KARTHIGAKM_PORTFOLIO/blob/main/bizcard%20home.PNG?raw=true)
 ## Overview:
    This portfolio project aims to build a Streamlit web application that allows users to upload images of business cards, extract relevant information using OCR (Optical 
    Character Recognition), and store the extracted data in a MySQL database.
