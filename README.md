@@ -1,7 +1,7 @@
 # KARTHIGAKM_PORTFOLIO
 DATA SCIENCE PORTFOLIO
 # [PROJECT 1: Youtube_Data_Harvesting_And_Warehousing](https://github.com/KarthigaKM/Youtube_Data_HarvestING-And-Warehousing)
-![](
+![](https://github.com/KarthigaKM/KARTHIGAKM_PORTFOLIO/blob/main/Capture.PNG?raw=true)
 ## Overview:
   * The "YouTube Data Analysis with Streamlit and Data Warehousing" project involves building a simple user interface (UI) with Streamlit, retrieving data from the YouTube 
     API, storing it in a MongoDB data lake, migrating it to a SQL data warehouse, querying the data warehouse with SQL, and displaying the data in the Streamlit app. The 
