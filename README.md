@@ -11,7 +11,7 @@ DATA SCIENCE PORTFOLIO
   * MongodB : For storing extracted youtube datas ina data lake.
   * MYSQL : For Migrating stoed data into Data Warehouse.
   * Pandas : For data manipulation and preprocessing.
-## Steps:
+## Project Structure:
 ## Install and Import Necessary Libraries:
   * Ensure all required libraries, such as Streamlit, pymongo, and MySQL Connector, are installed and imported to set up the development environment.
 ## Develop Basic Streamlit Application:
@@ -27,8 +27,8 @@ DATA SCIENCE PORTFOLIO
 ## Channel Dropdown List:
   * Implement a function to allow users to store their input channels in a dropdown list for easy selection and analysis.
 ## Performance Queries:
- * Design a function to perform ten queries that assess the performance of all channels by conducting comparisons. Display the query results as dataframes when users select 
-   a specific question.
+ * Design a function to perform ten queries that assess the performance of all channels by conducting comparisons. Display the query results as dataframes when users 
+   select a specific question.
 ## Migrate Data to MySQL:
  * Create a function to migrate the stored MongoDB data to MySQL using SQL queries.
 ## Display Data in Streamlit App:
@@ -39,6 +39,7 @@ DATA SCIENCE PORTFOLIO
 ## Future Enhancements:
   * Implementation of machine learning models for predictive analysis.
   * Incorporation of user authentication to allow personalized data exploration.
+
 
 # [PROJECT 2: PhonePe Data Visualization](https://github.com/KarthigaKM/Phonepe-Data-Visualization) 
 ## Overview:
@@ -51,30 +52,30 @@ DATA SCIENCE PORTFOLIO
   * Pandas: For data manipulation and preprocessing.
   * MySQL: For storing and managing the transaction data.
 ##  Project Structure:
-* The project consists of the following main components:
+  * The project consists of the following main components:
 ## Main Script (phonepe_main.py):
-* The main script is responsible for running the Streamlit web application.
-* It imports the necessary libraries and establishes a connection to the MySQL database.
-* The Streamlit interface allows users to navigate between different visualizations using the sidebar.
-* The dashboard is divided into two tabs: "Chart_Visualizations" and "Map_Visualizations".
+  * The main script is responsible for running the Streamlit web application.
+  * It imports the necessary libraries and establishes a connection to the MySQL database.
+  * The Streamlit interface allows users to navigate between different visualizations using the sidebar.
+  * The dashboard is divided into two tabs: "Chart_Visualizations" and "Map_Visualizations".
 ## Chart Visualizations:
-* The "Chart_Visualizations" tab contains six sub-tabs, each presenting specific transaction data visualizations for different states.
-* Users can select a state from the dropdown menu to view insights related to transaction types, user demographics, top transactions, and top users based on districts and 
-  pincodes.
-* Plotly and Streamlit are used to create interactive pie charts and bar charts, allowing users to explore the data and understand transaction patterns.
+  * The "Chart_Visualizations" tab contains six sub-tabs, each presenting specific transaction data visualizations for different states.
+  * Users can select a state from the dropdown menu to view insights related to transaction types, user demographics, top transactions, and top users based on districts 
+    and pincodes.
+  * Plotly and Streamlit are used to create interactive pie charts and bar charts, allowing users to explore the data and understand transaction patterns.
 ## Map Visualizations:
-* The "Map_Visualizations" tab consists of two sub-tabs, each displaying choropleth maps based on statewise transactions and user data.
-* The "Map of Statewise Transactions" presents a choropleth map showcasing transaction data by state.
-* The "Map of Statewise Users" displays a choropleth map indicating the number of users by state.
+  * The "Map_Visualizations" tab consists of two sub-tabs, each displaying choropleth maps based on statewise transactions and user data.
+  * The "Map of Statewise Transactions" presents a choropleth map showcasing transaction data by state.
+  * The "Map of Statewise Users" displays a choropleth map indicating the number of users by state.
 ## Data Source:
-* The project uses a MySQL database to store and manage PhonePe transaction data.
-* GeoJSON data (states_india.geojson) is utilized to create the choropleth maps.
+  * The project uses a MySQL database to store and manage PhonePe transaction data.
+  * GeoJSON data (states_india.geojson) is utilized to create the choropleth maps.
 ## Deployment:
-* The interactive dashboard is deployed using Streamlit Sharing, allowing users to access and explore PhonePe data visualizations with ease.
+  * The interactive dashboard is deployed using Streamlit Sharing, allowing users to access and explore PhonePe data visualizations with ease.
 ## Future Enhancements:
-* Integration of real-time data updates to ensure up-to-date insights.
-* Incorporating machine learning models for predictive analytics.
-* Enhancing the user interface with more customization options and filters.
+  * Integration of real-time data updates to ensure up-to-date insights.
+  * Incorporating machine learning models for predictive analytics.
+  * Enhancing the user interface with more customization options and filters.
 
 
 # [Project 3: Extracting Business Card Data with OCR](https://github.com/KarthigaKM/BIZCARDX-PROJECT)
@@ -88,7 +89,7 @@ DATA SCIENCE PORTFOLIO
    * Pandas: For data manipulation and handling the extracted data in a DataFrame.
    * Matplotlib: For image processing and displaying the uploaded business card with highlighted text.
    * OpenCV: To process and manipulate images.
-## Steps:
+## Project Structure:
 ## Setting Page Configurations: 
    Configuring Streamlit's page settings, including title, icon, layout, and sidebar options.
 ## Option Menus:
@@ -122,3 +123,32 @@ DATA SCIENCE PORTFOLIO
 ## Future Enhancement:
    * User Authentication: Implement user authentication and user accounts to allow multiple users to access the application securely. 
    * Improved OCR Accuracy: Explore and experiment with other OCR libraries or models to improve the accuracy of text extraction from business card images.
+
+
+# [Project 4: Complaint Management System Project in Python](https://github.com/KarthigaKM/Complaint-Management-System-Project-in-Python)
+## Overview:
+   * The "Complaint Management System" is a Python-based system that allows users to register, log in, submit complaints, track complaint status, and update complaint details. The project utilizes the MySQL database to store user information and complaint data.
+## Key Features:
+   * User Registration: Users can register with a unique username and password. User data is stored in the MySQL database.
+   * User Login: Registered users can log in using their credentials to access the system.
+   * Complaint Submission: Logged-in users can submit multiple complaints, each with a description. The complaints are stored in the database with a default status of "Pending."
+   * Complaint Status Tracking: Users can view the status of their submitted complaints, showing the complaint ID, description, and status (e.g., "Pending").
+   * Complaint Resolution: Users can update the description of their submitted complaints. The updated descriptions are stored in the database.
+## Project Structure:
+   * The project is organized into several functions, each handling specific functionalities of the system:
+## Database Initialization: 
+   * Connects to the MySQL database and creates two tables: "users" to store user information and "complaints" to store complaint data.
+## User Registration: 
+   * Registers users by accepting a username and password. The user data is stored in the "users" table.
+## User Login: 
+   * Allows registered users to log in by providing their username and password. The function returns the user ID upon successful login.
+## Complaint Submission: 
+   * Allows users to submit complaints. The function accepts the user ID and the complaint description and stores the complaint data in the "complaints" table with a default status of "Pending."
+## Complaint Status Tracking: 
+   * Retrieves all complaints submitted by a specific user and displays their complaint ID, description, and status.
+## Complaint Resolution: 
+   * Allows users to update the description of their submitted complaints. The updated description is stored in the "complaints" table.
+## Main Program: 
+   * Handles the overall flow of the Complaint Management System. It includes options for user registration, login, submitting complaints, tracking complaint status, updating complaint status, and logging out.
+## Future Enhancement:
+   *  Display this in User Interface application like Streamlit
