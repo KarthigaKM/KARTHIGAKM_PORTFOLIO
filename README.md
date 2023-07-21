@@ -103,6 +103,7 @@ DATA SCIENCE PORTFOLIO
    * Displaying an overview of the project, including project title, technologies used, and a brief project description.
 ## Upload and Extract Section:
 ![](https://github.com/KarthigaKM/KARTHIGAKM_PORTFOLIO/blob/main/BIZCARD%20UPLOADS.PNG?raw=true)
+![](https://github.com/KarthigaKM/KARTHIGAKM_PORTFOLIO/blob/main/BIZCARD%20EXTRACT.PNG?raw=true)
    * Allowing users to upload an image of a business card.
    * Using the EasyOCR library to extract text data from the uploaded image.
    * Displaying the uploaded image with highlighted text using OpenCV and Matplotlib.
