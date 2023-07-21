@@ -10,6 +10,7 @@ DATA SCIENCE PORTFOLIO
   * Streamlit: For building the interactive web application.
   * MongodB : For storing extracted youtube datas ina data lake.
   * MYSQL : For Migrating stoed data into Data Warehouse.
+  * Pandas : For data manipulation and preprocessing.
 # Steps:
 # Install and Import Necessary Libraries:
   * Ensure all required libraries, such as Streamlit, pymongo, and MySQL Connector, are installed and imported to set up the development environment.
@@ -18,7 +19,6 @@ DATA SCIENCE PORTFOLIO
     navigation.
 # Establish API and Database Connections:
   * Establish connections to the YouTube API using an API key, connect to MongoDB using pymongo, and set up a connection with MySQL using MySQL Connector.
-
 # Retrieve YouTube Data:
   * Create four separate functions to retrieve channel details, video IDs (using channel IDs), all video details, and comments' details for each video. Organize the 
     comments as arrays within their corresponding videos.
