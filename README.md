@@ -40,7 +40,7 @@ DATA SCIENCE PORTFOLIO
   * Implementation of machine learning models for predictive analysis.
   * Incorporation of user authentication to allow personalized data exploration.
 
-# PROJECT 2: PhonePe Data Visualization 
+# [PROJECT 2: PhonePe Data Visualization](https://github.com/KarthigaKM/Phonepe-Data-Visualization) 
 # Project Overview:
  * The "PhonePe Data Visualization using Streamlit, Plotly, Python" project aims to create an interactive and visually appealing data visualization dashboard to analyze and 
   explore PhonePe transaction data. It utilizes various technologies, including Python, Streamlit, Plotly, and MySQL, to present insights from the data.
